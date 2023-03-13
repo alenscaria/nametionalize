@@ -142,7 +142,7 @@ export default function Home() {
                 className="w-full h-full text-sm font-bold text-stone-800 rounded-l-sm outline-none py-1 px-2"
               />
               <button
-                className="h-full font-bold text-white bg-stone-500 rounded-r-sm px-6 hover:bg-stone-600"
+                className="h-full font-bold text-white bg-gray-700 rounded-r-sm px-6 hover:bg-gray-800"
                 onClick={() => setGoSearch(true)}
               >
                 Go!
@@ -158,7 +158,7 @@ export default function Home() {
                       </h4>
                       <>
                         {loadingFlag ? (
-                          <div className="w-7 h-4 bg-stone-200 rounded-sm" />
+                          <div className="w-7 h-4 bg-gray-900 rounded-sm" />
                         ) : (
                           flagUrl.length > 0 && (
                             <div className="w-7 h-4 relative">
