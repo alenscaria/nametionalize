@@ -152,7 +152,7 @@ export default function Home() {
               {result.length !== 0 ? (
                 result.map((item, index) => (
                   <div key={item.country_id}>
-                    <div className="flex items-center gap-1 bg-stone-800 mb-1">
+                    <div className="flex items-center gap-1 mb-1">
                       <h4 className="text-base font-bold text-white">
                         {regionName(item.country_id)}
                       </h4>
